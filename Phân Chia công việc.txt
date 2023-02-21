@@ -1,0 +1,4 @@
+Phạm Thành Công : Chức năng login/sign up
+Nguyễn Quý Hải: Chức năng chat
+Đỗ Thế Dương: Chức năng chia kênh chat, list người dùng
+Nguyễn Trọng Bình: Hiện trang profile người dùng, frontend

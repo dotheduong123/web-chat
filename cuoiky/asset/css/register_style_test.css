@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url(../font/quicksand/Quicksand-Bold.otf);
+}
+@font-face {
+    font-family: 'Quicksand-LightItalic';
+    src: url(../font/quicksand/Quicksand-LightItalic.otf);
+}
+@font-face {
+    font-family: 'Quicksand-RegularItalic';
+    src: url(../font/quicksand/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: '20DB';
+    src: url(../font/20-db/20db.otf);
+}
+@font-face {
+    font-family: 'Quartzo';
+    src: url(../font/quartzo/Quartzo.ttf);
+}
+form {
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(0, 128, 135);
+}
+.wrapper {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../images/background/universe.png"); */
+    background: url("../images/background/universe.png");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 950px;
+}
+.login_box {
+    font-family: 'Quicksand-RegularItalic', sans-serif;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 70%;
+    background-color: #1D2128FF;
+    border-radius: 5px;
+    padding: 5px;
+    color:  #DEE1E6FF; 
+}
+.login_header {
+    font-family: 'Quicksand-RegularItalic', sans-serif;
+    width: 100%;
+    height: 90px;
+    color:  #DEE1E6FF; 
+    background-color: rgb(20, 20, 20);;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login_header h2 {
+    font-family: 'Quartzo',sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:  #DEE1E6FF; 
+    font-size: 50px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(45deg,#b92b27, #1565c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input[type="submit"]{
+    font-family: 'Quicksand-Bold', sans-serif;
+    background-color: rgb(20, 20, 20);
+    color:  #DEE1E6FF; 
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0 10px 0;
+    width: 76.5%;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: rgb(100, 100, 100);
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    border: 1px solid rgb(157, 157, 157);   
+    width: 70%;
+    height: 35px;   
+    padding-left: 5px;
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus{
+    outline-color: rgb(10, 165, 41);
+    border: 0px;
+}
+#first {
+    margin-top: 5%;
+}
+#second {
+    margin-top: 5%;
+    display: none;
+}
+.notification {
+    display: block;
+    text-align: left;
+    margin-left: 12%;
+    color: red;
+    font-size: 13px;
+}
+.InputAddOn {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.InputAddOn-item {
+    display: flex;
+    background-color:rgb(92, 91, 91);
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.input-group-text{
+    color: #eeecec;
+}
+
+.main {
+    background: url("../images/background/universe.png");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 950px;
+}
+.login_main {
+    position: absolute;
+    background: #1D2128FF;
+    right: 0;
+    width: 700px;
+    top: 0;
+    height: 100%;
+}
